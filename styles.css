@@ -1,0 +1,49 @@
+/*Universal Styles*/
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #ffffff;
+}
+
+
+/*html breakdown
+
+body
+header
+    h1
+    nav
+        ul
+            li
+                a
+main
+    div #completed-projects
+        h2
+        div #completed-projects-container
+            div .completed-projects-content #complete-marulamarket
+                img .complete-imgs 
+                div .complete-text
+                    h4
+                    ul
+                        li
+            div .completed-projects-content #complete-two
+                .complete-imgs
+
+    div #current-project
+        h2
+        div #current-project-container
+            div #current-project-gallery
+            div #current-project-text
+                h3
+                p
+
+    div #about
+        h2
+        div #about-container
+            div #about-text
+                h3
+                p
+                div #about-links
+        div #about-imgs
+
+footer
+*/
