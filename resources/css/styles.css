@@ -12,7 +12,7 @@ body {
 
 header {
     width:100%;
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@ h1 {
 nav{
     width: 50%;
     max-width: 300px;
-    height: 50px;
+    height: 100px;
 }
 
 nav ul {
@@ -49,7 +49,7 @@ li a {
 }
 
 main {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 section {
@@ -61,16 +61,33 @@ section {
 h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #completed-projects {
-
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 
 #completed-projects-container {
-
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.project-content {
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#marula-market {
+    background-image: url(/resources/images/marulamarket_homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
 
 
 /*html breakdown
@@ -87,13 +104,10 @@ main
         h2
         div #completed-projects-container
             div .completed-projects-content #complete-marulamarket
-                img .complete-imgs 
-                div .complete-text
-                    h4
-                    ul
-                        li
+                h4
+                ul
+                    li
             div .completed-projects-content #complete-two
-                .complete-imgs
 
     div #current-project
         h2
