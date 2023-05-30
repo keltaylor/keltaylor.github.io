@@ -1,9 +1,76 @@
 /*Universal Styles*/
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
 
 body {
     font-family: Verdana, Tahoma, sans-serif;
     background-color: #ffffff;
 }
+
+header {
+    width:100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav{
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+li a {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 50px;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#completed-projects {
+
+}
+
+#completed-projects-container {
+
+}
+
 
 
 /*html breakdown
